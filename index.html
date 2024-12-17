@@ -290,6 +290,13 @@
     flex: 1; /* 남은 공간을 모두 차지하도록 설정 */
     text-align: center; /* 텍스트를 중앙 정렬 */
 }
+.center-container {
+  display: flex;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  height: 100vh; /* 전체 뷰포트 높이 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+}
 
 
   </style>
@@ -306,16 +313,7 @@
         <div class="image-box">
             <img src="ddd.png" alt="DIY.운">
         </div>
-        <h1 style="height:windowHeight/2; width:windowWidth/2">
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
+        <h1 class="center-container">
           코 앞으로 다가온 2025년, 
           <br/>당신만의 의미있는 
           <br/>운을 만들어보세요!</h1>
